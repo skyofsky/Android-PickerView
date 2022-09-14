@@ -1,4 +1,5 @@
-## 注意⚠️：已停止更新，原有版本jcenter库可以继续使用。建议直接下载源码引入 module 到自己项目改造。
+## 修改自: https://github.com/Bigkoo/Android-PickerView
+## 注意⚠️：作者已停止更新，原有版本jcenter库可以继续使用。
 
 ## Android-PickerView
 [![API](https://img.shields.io/badge/API-9%2B-brightgreen.svg)](https://android-arsenal.com/api?level=9) 
@@ -268,7 +269,7 @@ pvOptions = new  OptionsPickerBuilder(this, new OptionsPickerView.OnOptionsSelec
 #### 6.若只需要WheelView基础控件自行扩展实现逻辑，可直接添加基础控件库，Gradle 依赖：
  
 ```java
-compile 'com.contrarywind:wheelview:4.1.0'
+implementation 'io.github.skyofsky:Android-PickerView:4.1.10'
 ```
 
 #### WheelView 使用代码示例：
